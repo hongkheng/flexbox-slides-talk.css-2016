@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Awesome Presentation</title>
+    <title>Application of Flexbox</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" href="styles/slides.css">
   </head>
   <body>
     <textarea id="source">
 
-class: center, middle
+class: center, middle, slide-title-background
 
 # Application of Flexbox
 
@@ -18,6 +18,8 @@ Notes for the _first_ slide!
 
 ---
 
+class: slide-content
+
 # Brief Intro 
 
 - Most funniest thing ever done
@@ -25,55 +27,100 @@ Notes for the _first_ slide!
 
 ---
 
+class: center, middle, slide-content
+
 # So you want to use Flexbox...
 
 ---
 
+class: slide-content
+
 # Lotsa resources on Flexbox specs
 
-  [List examples]
+- Flexbox complete guide on CSS Tricks
 
 ---
+
+class: center, middle, slide-content
+
+# Flexbox Froggy
+
+<a href="http://flexboxfroggy.com/">http://flexboxfroggy.com/</a>
+
+???
+
+Game that make you an flexbox grammar expert
+
+---
+
+class: center, middle, slide-content
+
+# Codepen flexbox compodium
+
+???
+
+Discuss that it has
+
+--- 
+
+class: center, middle, slide-content
 
 # Practical usage > reading up
 
 ---
 
+class: center, slide-content
+
 # What we try to use Flexbox for
   
-  ## All Layouts <s>to replace all float: left /position: relative</s>
+<div class="slide-body-text">
+All Layouts <s>to replace all float: left /position: relative</s></div>
 
 ---
+
+class: center, slide-content
 
 # Don't... do that
 
+<div class="slide-body-text">
+Content determines container size rather than container determines content
+</div>
+
+<blockquote>Don't use flexbox for page layout</blockquote>
+<a href="https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/">by Jake Archibald</a>
 
 ---
+
+class: slide-content
+
 # Good cases
 
-- Sticky footer
+### Small components
 - Vertical centering
 - Responsive horizontals  e.g. lists, navigation headers 
 - Grid of items <s>not grid layout</s>
 
 ---
 
-# Let's get ready to start coding
+class: slide-content
 
-#### have to see it for yourself
+# Not so good cases
+
+### Sticky footer 
+
+- Use it if supporting evergreen browsers
+
 ---
 
-# Sticky footer
-
-[demo]
-
----
+class: center, middle, slide-content-demo
 
 # Vertical centering
 
 [demo]
 
 ---
+
+class: center, middle, slide-content-demo
 
 # Responsive horizontals 
 
@@ -82,18 +129,21 @@ Notes for the _first_ slide!
 
 ---
 
+class: center, middle, slide-content-demo
+
 # Grid of items 
 
 [demo]
 
 ---
 
+class: center, middle, slide-content-end
 
 # Questions?
 
 e.g. How does flex-basis work?
 
-e.g. What is this 0.000000000001px magic number?
+e.g. Flexbox with auto margins
 
 e.g. When to use flex shorthand?
 

@@ -6,8 +6,8 @@
  *    without disabling user zoom.
  */
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 
 html {
   font-family: sans-serif; /* 1 */
@@ -427,9 +427,33 @@ th {
 }
 
 
-body { font-family: 'Droid Serif'; }
+body { font-family: 'Lora', sans-serif; }
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: normal;
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.slide-title-background {
+  background: #523249;
+  color: #fff;
+}
+
+.slide-content {
+  background: #eee4e1;
+  color: #20172C;
+}
+
+.slide-body-text {
+  font-size: 1.5em;
+}
+
+.slide-content-demo {
+  background: #db7f8e;
+  color: #583549;
+}
+
+.slide-content-end {
+  background: #ffdbda;
+  color: ##63515F;
+}
