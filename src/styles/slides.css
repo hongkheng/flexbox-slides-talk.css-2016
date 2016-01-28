@@ -435,7 +435,7 @@ h1, h2, h3 {
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
 p, ul {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .slide-title-background {
@@ -478,4 +478,9 @@ p, ul {
 .slide-content-end {
   background: #F7EBEC;
   color: #605665;
+}
+
+.images {
+  max-width: 100%;
+  height: auto;
 }

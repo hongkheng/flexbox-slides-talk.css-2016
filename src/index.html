@@ -20,7 +20,7 @@ Notes for the _first_ slide!
 
 class: slide-content
 
-# Brief Intro 
+# Brief Intro
 
 - Most funniest thing ever done
 
@@ -32,7 +32,7 @@ class: slide-content
 
 # Agenda
 
-- Not an introduction talk 
+- Not an introduction talk
 - Going through some weirdness of Flexbox
 - When to use Flexbox
 
@@ -42,8 +42,8 @@ class: slide-content-intro
 
 # Lotsa resources on Flexbox specs
 
-- Flexbox complete guide on CSS Tricks
-- <a href="https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid">Flexbox youtube series by Wes Bos</a>
+- <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox complete guide on CSS Tricks</a>
+- <a href="https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid" target="_blank">Flexbox youtube series by Wes Bos</a>
 
 
 ---
@@ -52,7 +52,9 @@ class: center, middle, slide-content-intro
 
 # Flexbox Froggy
 
-<a href="http://flexboxfroggy.com/">http://flexboxfroggy.com/</a>
+<a href="http://flexboxfroggy.com/" target="_blank">http://flexboxfroggy.com/</a>
+
+<img src="./img/flexboxfroggy.png" class="images" alt="flexbox froggy"/>
 
 ???
 
@@ -62,17 +64,15 @@ Game that make you an flexbox grammar expert
 
 class: center, middle, slide-content-intro
 
-# Codepen flexbox compodium
+# Codepen flexbox playground
+
+[http://codepen.io/enxaneta/full/adLPwv/](http://codepen.io/enxaneta/full/adLPwv/)
+
+<img src="./img/flexboxplayground.png" class="images" alt="flexbox playground"/>
 
 ???
 
 Discuss that it has
-
---- 
-
-class: center, middle, slide-content-intro
-
-# Practical usage > reading up
 
 ---
 
@@ -81,7 +81,7 @@ class: center, middle, slide-content-mystery
 # Some mind boggling things
 
 
-Expect to do what people says but it doesn't...
+Expect to do what it *supposed* to but it doesn't...
 
 ---
 
@@ -123,18 +123,36 @@ class: slide-content-mystery
 
 class: center, middle, slide-content-mystery
 
-#### `flex: initial = flex: 0 1 auto`
+## `flex: 0 1 auto;` ?
 
 `flex: flex-grow flex-shrink flex-basis`
+
+Auto fit the container depending on content with space if there is an extra space
 
 ---
 
 class: center, slide-content-mystery
 
-# What we try to use Flexbox for
-  
+# auto margins
+
+Use auto margins to align items on the main axis
+
+<br><br>
+
+aligns items using that if `justify-content` is not specify
+
+---
+
+class: center, slide-content-mystery
+
+### What we try to use Flexbox for
+<br><br><br>
+## All Layouts
+<br><br><br>
 <div class="slide-body-text">
-All Layouts <s>to replace all float: left /position: relative</s></div>
+<s>to replace all float: left / position: relative</s>
+</div>
+
 
 ---
 
@@ -144,10 +162,10 @@ class: center, slide-content-mystery
 
 <div class="slide-body-text">
 Content determines container size rather than container determines content
-</div>
-
+<br><br><br>
 <blockquote>Don't use flexbox for page layout</blockquote>
 <a href="https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/">by Jake Archibald</a>
+</div>
 
 ---
 
@@ -157,7 +175,7 @@ class: slide-content-mystery
 
 ### Small components
 - Vertical centering
-- Responsive horizontals  e.g. lists, navigation headers 
+- Responsive horizontals  e.g. lists, navigation headers
 - Grid of items <s>not grid layout</s>
 
 ---
@@ -166,7 +184,7 @@ class: slide-content-mystery
 
 # Not so good cases
 
-### Sticky footer 
+### Sticky footer
 
 - Use it if supporting evergreen browsers
 
@@ -176,24 +194,23 @@ class: center, middle, slide-content-demo
 
 # Vertical centering
 
-[demo]
+[http://codepen.io/hongkheng/pen/obdWrY](http://codepen.io/hongkheng/pen/obdWrY)
 
 ---
 
 class: center, middle, slide-content-demo
 
-# Responsive horizontals 
+# Responsive horizontals
 
-
-[demo]
+[http://codepen.io/hongkheng/pen/RryLzZ](http://codepen.io/hongkheng/pen/RryLzZ)
 
 ---
 
 class: center, middle, slide-content-demo
 
-# Grid of items 
+# Grid of items + Vertical centering
 
-[demo]
+[http://codepen.io/hongkheng/pen/wMjKWQ](http://codepen.io/hongkheng/pen/wMjKWQ)
 
 ---
 
