@@ -475,9 +475,17 @@ p, ul {
   color: #605665;
 }
 
+.slide-content-demo a {
+  color: #3f3644;
+}
+
 .slide-content-end {
   background: #F7EBEC;
   color: #605665;
+}
+
+.slide-content-end a {
+  color: #3f3644;
 }
 
 .images {
