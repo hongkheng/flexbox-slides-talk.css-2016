@@ -434,26 +434,48 @@ h1, h2, h3 {
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
+p, ul {
+  font-size: 1.2em;
+}
+
 .slide-title-background {
-  background: #523249;
-  color: #fff;
+  background: #1D1E2C;
+  color: #BBBBB8;
 }
 
 .slide-content {
-  background: #eee4e1;
-  color: #20172C;
+  background: #59656F;
+  color: #CDD1D4;
 }
 
 .slide-body-text {
   font-size: 1.5em;
 }
 
+.slide-content-intro {
+  background: #AC9FBB;
+  color: #4A3F56;
+}
+
+.slide-content-intro a {
+  color: #6a5c79;
+}
+
+.slide-content-mystery {
+  background: #DDBDD5;
+  color: #58485E;
+}
+
+.slide-content-mystery a {
+  color: #8d728b;
+}
+
 .slide-content-demo {
-  background: #db7f8e;
-  color: #583549;
+  background: #F7EBEC;
+  color: #605665;
 }
 
 .slide-content-end {
-  background: #ffdbda;
-  color: ##63515F;
+  background: #F7EBEC;
+  color: #605665;
 }
